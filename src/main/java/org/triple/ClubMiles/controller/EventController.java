@@ -56,9 +56,6 @@ public class EventController {
     @ApiOperation(value = "포인트 조회", notes = "" +
             "\n - userId가 null일 경우 전체 사용자에 대해서 조회")
     public Response<List<PointResDto>> point(String userId){
-
-        //TODO date 관련 validation 필요
         return Response.OK("", eventService.point(userId));
-
     }
 }
