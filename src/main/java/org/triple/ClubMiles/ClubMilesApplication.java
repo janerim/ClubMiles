@@ -11,6 +11,7 @@ public class ClubMilesApplication {
 	public static void main(String[] args) {
 
 		System.out.println("add code for test");
+		System.out.println("add code for test2");
 		SpringApplication.run(ClubMilesApplication.class, args);
 	}
 
