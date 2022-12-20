@@ -10,7 +10,7 @@ public class ClubMilesApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("add code for test");
+		System.out.println("check code for test");
 		SpringApplication.run(ClubMilesApplication.class, args);
 	}
 
